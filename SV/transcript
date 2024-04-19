@@ -11,9 +11,47 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# do project.sv
-# ** Error: bad option "flopr": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
-# Error in macro ./project.sv line 2
-# bad option "flopr": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
-#     while executing
-# "module flopr #(parameter WIDTH = 8) ( "
+# do project.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:58:23 on Apr 19,2024
+# vlog -reportprogress 300 project.sv project_tb.sv datapath.sv mux.sv flopr.sv 
+# -- Compiling module game
+# -- Compiling module stimulus
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux4
+# -- Compiling module mux5
+# -- Compiling module mux6
+# -- Compiling module mux16
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	stimulus
+# 	mux3
+# 	mux4
+# 	mux5
+# 	mux6
+# 	mux16
+# End time: 12:58:23 on Apr 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 12:58:23 on Apr 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.game(fast)
+# Loading work.mux2(fast)
+# Loading work.flopr(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 13:08:09 on Apr 19,2024, Elapsed time: 0:09:46
+# Errors: 0, Warnings: 0
