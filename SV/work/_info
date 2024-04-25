@@ -1,7 +1,8 @@
 m255
 K4
 z2
-!s99 nomlopt
+Z0 !s99 nomlopt
+R0
 !s11f vlog 2021.3 2021.07, Jul 13 2021
 13
 !s112 1.1
@@ -9,350 +10,351 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/DLD/Final-Project/SV
+Z1 dC:/DLD/Final-Project/sv
 T_opt
-!s110 1713549504
-Vj>ODUXKdkV6[>h9nQZJcl0
+!s110 1714081655
+VzOCCc8UjCZ^HH7Qen6GNB0
 04 8 4 work stimulus fast 0
-=1-e0d045b72dd9-6622b0c0-b5-5a0
+=1-e0d045b72dd9-662acf76-351-53d4
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
 OL;O;2021.3;73
+R1
 vdatapath
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1713549503
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1714081696
 !i10b 1
 !s100 V;C_hS8f1BHnb36LBjYJ01
 I<ahlD=61ndBBilL@NE8dL1
 S1
-R0
-Z4 w1713544509
-Z5 8datapath.sv
-Z6 Fdatapath.sv
+R1
+Z5 w1713544509
+Z6 8datapath.sv
+Z7 Fdatapath.sv
 !i122 0
 L0 7 79
-Z7 VDg1SIo80bB@j0V0VzS_@n1
-Z8 OL;L;2021.3;73
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z9 !s108 1713549503.000000
-Z10 !s107 flopr.sv|mux.sv|datapath.sv|project_tb.sv|project.sv|
+Z10 !s108 1714081696.000000
+!s107 flopr.sv|mux.sv|datapath.sv|project_tb.sv|project.sv|
 Z11 !s90 -reportprogress|300|project.sv|project_tb.sv|datapath.sv|mux.sv|flopr.sv|
 !i113 0
 Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vevolve3
 R2
+vevolve3
 R3
+R4
 !i10b 1
 !s100 IXoNo]gEC0MZaJ37;nO_30
 IM8klP?6AAQElYj^^>dMog1
 S1
-R0
-R4
+R1
 R5
 R6
+R7
 !i122 0
 L0 88 14
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+Z13 !s107 flopr.sv|mux.sv|datapath.sv|project_tb.sv|project.sv|
 R11
 !i113 0
 R12
-R1
-vevolve5
 R2
+vevolve5
 R3
+R4
 !i10b 1
 !s100 I^MlKOK_W3OeeJBMAXc:W2
 I:N2@j2?Hz8T^_^8H8DMB42
 S1
-R0
-R4
+R1
 R5
 R6
+R7
 !i122 0
 L0 103 17
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vevolve8
 R2
+vevolve8
 R3
+R4
 !i10b 1
 !s100 X=VQ5`4bnRg0]4e9c_9PV1
 I9=CLF7`lSL3IgfFX:JW2G3
 S1
-R0
-R4
+R1
 R5
 R6
+R7
 !i122 0
 L0 122 23
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vflopr
 R2
+vflopr
 R3
+R4
 !i10b 1
 !s100 ^26[6o5[oBMPo>fgAYf?02
 IMdYi8F4=54m?JQ_5TZ57D0
 S1
-R0
-R4
+R1
+R5
 8flopr.sv
 Fflopr.sv
 !i122 0
 L0 28 9
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vgame
 R2
+vgame
 R3
+R4
 !i10b 1
-!s100 OZKXk_c>[?ak]d9<JPDYa3
-I<^nL]8[I;N_ej8LI^PTX[3
+!s100 N@bPWlX6PmL[^^17oM7c>2
+I3HOOV51X<[;=<fPzS@_541
 S1
-R0
-w1713548658
+R1
+w1714081147
 8project.sv
 Fproject.sv
 !i122 0
-L0 12 11
-R7
+L0 12 12
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vmux16
 R2
+vmux16
 R3
+R4
 !i10b 1
 !s100 F@M1[@>he3JV9^IF0L8Sj0
 IEf5:5a9>Ka;I7o:]`a;k:1
 S1
-R0
-Z13 w1713546150
-Z14 8mux.sv
-Z15 Fmux.sv
+R1
+Z14 w1713546150
+Z15 8mux.sv
+Z16 Fmux.sv
 !i122 0
 L0 70 13
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vmux2
 R2
+vmux2
 R3
+R4
 !i10b 1
 !s100 W:<17Zf=Y]U7WhCHYnfE30
 IP;AONYfVQe92ZcmEdHV<01
 S1
-R0
-R13
+R1
 R14
 R15
+R16
 !i122 0
 L0 30 7
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vmux3
 R2
+vmux3
 R3
+R4
 !i10b 1
 !s100 819e9BNQZ9@9P[n?Bdk_o2
 I`PHB`CHPl=hUgk8Lejga21
 S1
-R0
-R13
+R1
 R14
 R15
+R16
 !i122 0
 L0 38 7
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vmux4
 R2
+vmux4
 R3
+R4
 !i10b 1
 !s100 MeJFX^OozWGhI_=972W9P3
 I;WE>L_Q5OSYOU[BQGhXMS1
 S1
-R0
-R13
+R1
 R14
 R15
+R16
 !i122 0
 L0 46 7
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vmux5
 R2
+vmux5
 R3
+R4
 !i10b 1
 !s100 CjW=<m6Pl0kiYKS5d8[dj3
 I@NzHmgB`7[XDF8>M;gTZC0
 S1
-R0
-R13
+R1
 R14
 R15
+R16
 !i122 0
 L0 54 7
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vmux6
 R2
+vmux6
 R3
+R4
 !i10b 1
 !s100 3LkR^VVamDA<E7hS@jWgE0
 I[O@;JkBT^LMiLKCZlLgWE3
 S1
-R0
-R13
+R1
 R14
 R15
+R16
 !i122 0
 L0 62 7
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vrules
 R2
+vrules
 R3
+R4
 !i10b 1
 !s100 JL3^U4`<X^MUIi:l8LemW2
 IBcFBl4c5NRZOko>2=jFA93
 S1
-R0
-R4
+R1
 R5
 R6
+R7
 !i122 0
 L0 147 9
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
-vstimulus
 R2
+vstimulus
 R3
+R4
 !i10b 1
-!s100 R1^BMe7KnYU`9[1R`jz_B1
-I<FHg4JKKhXD]5iln[35[R2
+!s100 aTLIFia7Em4d6e1CM`<Uf3
+IziZ:fDcdcEkL_IeXS@G1l3
 S1
-R0
-w1713549498
+R1
+w1714081633
 8project_tb.sv
 Fproject_tb.sv
 !i122 0
 L0 2 52
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
 R10
+R13
 R11
 !i113 0
 R12
-R1
+R2

@@ -9,12 +9,13 @@
     else       q <= #1 d;
 endmodule*/
 
-module game(output logic [63:0] q, input logic clk,  input logic reset,input logic [63:0]seed);
+module game(output logic [63:0] q, input logic clk,  input logic reset, input logic [63:0]seed,input select);
 logic [63:0] y;
 logic [63:0] d;
 
 
-mux2 #(64) dut(q,seed,reset,y);
+
+mux2 #(64) dut(q,seed,select,y);
 flopr #(64) gut(clk, reset,d,q);
 datapath dp(y,d); 
 
