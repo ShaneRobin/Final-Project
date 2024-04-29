@@ -9,26 +9,26 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/nnaji/OneDrive/Documents/GitHub/Final-Project/SV
+Z0 dC:/DLD/Final-Project/sv
 T_opt
-Z1 !s110 1714414570
-VF6VSa=JHcBTDD;6]?SBKa0
+!s110 1714428408
+VeJNeFAWgzLG89<JOl]9KE1
 04 8 4 work stimulus fast 0
-=1-c809a807e94b-662fe3ea-2ee-8480
+=1-e0d045b72dd9-663019f7-34c-dbc
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+Z1 tCvgOpt 0
 n@_opt
 OL;O;2021.3;73
 vlfsr
-Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-R1
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1714428407
 !i10b 1
 !s100 ?48ek:;`Egdo^d_0cC`mS0
 IkZU6n7]0l7>d=dVZ@6]293
 S1
 R0
-Z4 w1714412779
+Z4 w1714424647
 Z5 8lfsr.sv
 Z6 Flfsr.sv
 !i122 0
@@ -38,15 +38,15 @@ Z8 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z9 !s108 1714414570.000000
+Z9 !s108 1714428407.000000
 Z10 !s107 lfsr_tb.sv|lfsr.sv|
 Z11 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
 !i113 0
 Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vlfsr64
-R3
 R1
+vlfsr64
+R2
+R3
 !i10b 1
 !s100 cb9XnM>C3z5FB;EQ>Cg950
 IS6e3<5Z[5Ki>UgQ6I2K@A2
@@ -67,20 +67,20 @@ R10
 R11
 !i113 0
 R12
-R2
-vstimulus
-R3
 R1
+vstimulus
+R2
+R3
 !i10b 1
-!s100 ^IKGkaF_0D8AXQX?SXjf12
-IT:EHH6nC5KX8bA`?TUlI52
+!s100 1o<@gE:1X`;AcVoTY7MF70
+I0N@GemazNBDN1OSzWkzNB3
 S1
 R0
-w1714414550
+w1714428376
 8lfsr_tb.sv
 Flfsr_tb.sv
 !i122 0
-L0 4 67
+L0 4 71
 R7
 R8
 r1
@@ -91,4 +91,4 @@ R10
 R11
 !i113 0
 R12
-R2
+R1

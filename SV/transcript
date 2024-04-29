@@ -11,9 +11,9 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# do lfsr.do
+# do {.\lfsr.do}
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 13:16:10 on Apr 29,2024
+# Start time: 17:06:47 on Apr 29,2024
 # vlog -reportprogress 300 lfsr.sv lfsr_tb.sv 
 # -- Compiling module lfsr
 # -- Compiling module lfsr64
@@ -22,19 +22,18 @@
 # Top level modules:
 # 	lfsr64
 # 	stimulus
-# End time: 13:16:10 on Apr 29,2024, Elapsed time: 0:00:00
+# End time: 17:06:47 on Apr 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.stimulus 
-# Start time: 13:16:10 on Apr 29,2024
+# Start time: 17:06:47 on Apr 29,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.stimulus(fast)
 # Loading work.lfsr(fast)
 # .main_pane.wave.interior.cs.body.pw.wf
-#           x This seed does not repeat
-# ** Note: $finish    : lfsr_tb.sv(59)
-#    Time: 101 ns  Iteration: 1  Instance: /stimulus
+# ** Note: $finish    : lfsr_tb.sv(53)
+#    Time: 131081 ns  Iteration: 1  Instance: /stimulus
 # 1
-# Break in Module stimulus at lfsr_tb.sv line 59
-# End time: 13:19:01 on Apr 29,2024, Elapsed time: 0:02:51
+# Break in Module stimulus at lfsr_tb.sv line 53
+# End time: 17:07:33 on Apr 29,2024, Elapsed time: 0:00:46
 # Errors: 0, Warnings: 0

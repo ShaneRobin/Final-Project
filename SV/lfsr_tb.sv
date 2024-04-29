@@ -29,7 +29,7 @@ module stimulus ();
    always @(posedge clk)
      begin
 		//output your results to a file 
-     $fdisplay (desc3, "%h %h || %b || %d",
+     $fdisplay (desc3, "%b %b || %b || %d",
       seed, shift_seed, reset, counter);
       
 
@@ -48,23 +48,27 @@ module stimulus ();
       begin 
       counter = counter + 1;
       end
-    if (shift_seed == seed)
+    if (shift_seed == seed && counter != 0)begin
     $fdisplay(desc3, "%b", counter);
+    $finish;
+    end
 		//this should be (2^n) - 1
 		//if the output never repeats for 2^n iterations, report that
-    if (counter == (65540 - 1))
-    $finish;
+    if (counter == (65545)) begin
+    $finish;  
     begin
-  $display("%d This seed does not repeat", counter);
-  $finish;
+    $display("%d This seed does not repeat", counter);
+    $finish;
 		end
+    end
     end
 	end
    initial
    begin 
     #0 assign seed = 64'h00E7_0000_0000_E700;
  #0 reset = 1'b1;
- #100 reset = 1'b0;
+ #0 counter = 32'b0;
+ #10 reset = 1'b0;
    end
 
 endmodule // tb
