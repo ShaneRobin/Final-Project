@@ -1,6 +1,8 @@
 m255
 K4
 z2
+!s99 nomlopt
+!s11f vlog 2021.3 2021.07, Jul 13 2021
 13
 !s112 1.1
 !i10d 8192
@@ -8,51 +10,85 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/nnaji/OneDrive/Documents/GitHub/Final-Project/SV
+T_opt
+Z1 !s110 1714414570
+VF6VSa=JHcBTDD;6]?SBKa0
+04 8 4 work stimulus fast 0
+=1-c809a807e94b-662fe3ea-2ee-8480
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
 vlfsr
-Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z2 !s110 1714155379
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
 !i10b 1
-!s100 78e>1dmffBaoo7ACDlY[W0
-I35@dWMg6QSKGnn[5FP;iD2
+!s100 ?48ek:;`Egdo^d_0cC`mS0
+IkZU6n7]0l7>d=dVZ@6]293
 S1
 R0
-Z3 w1714153972
-Z4 8lfsr.sv
-Z5 Flfsr.sv
+Z4 w1714412779
+Z5 8lfsr.sv
+Z6 Flfsr.sv
 !i122 0
-L0 1 23
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2021.3;73
+L0 1 19
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z8 !s108 1714155379.000000
-!s107 lfsr_tb.sv|lfsr.sv|
-Z9 !s90 lfsr.sv|lfsr_tb.sv|
+Z9 !s108 1714414570.000000
+Z10 !s107 lfsr_tb.sv|lfsr.sv|
+Z11 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
 !i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 tCvgOpt 0
-vlfsr64
-R1
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
+vlfsr64
+R3
+R1
 !i10b 1
-!s100 P7LCEk]0CY6oZzl_MRJAA2
-I2JHXOX8[:VzO5`[[<k>;83
+!s100 cb9XnM>C3z5FB;EQ>Cg950
+IS6e3<5Z[5Ki>UgQ6I2K@A2
 S1
 R0
-R3
 R4
 R5
-!i122 0
-L0 26 22
 R6
+!i122 0
+L0 22 22
 R7
+R8
 r1
 !s85 0
 31
-R8
-Z12 !s107 lfsr_tb.sv|lfsr.sv|
 R9
-!i113 0
 R10
 R11
+!i113 0
+R12
+R2
+vstimulus
+R3
+R1
+!i10b 1
+!s100 ^IKGkaF_0D8AXQX?SXjf12
+IT:EHH6nC5KX8bA`?TUlI52
+S1
+R0
+w1714414550
+8lfsr_tb.sv
+Flfsr_tb.sv
+!i122 0
+L0 4 67
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

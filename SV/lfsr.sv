@@ -5,19 +5,15 @@ module lfsr(seed, clk, reset, shift_seed);
 //your implementation of the LFSR.  Remember that this 
 //implementation has memory so it should be done 
 //with some form of a flip-flop based register
-input logic seed; 
+input logic [15:0]seed; 
 input logic clk; 
 input logic reset;
-input logic [15:0]shift_seed;
+output logic [15:0]shift_seed;
 
-always @(posedge clk) begin
+always_ff @(posedge clk) begin
 
-    if(reset) begin
-    shift_seed = seed;
-    end
-    else begin
-    shift_seed = {shift_seed[14:0], shift_seed[15]^shift_seed[12]^shift_seed[3]};
-    end
+    if(reset) shift_seed <= seed;
+    else shift_seed <= {shift_seed[14:0], shift_seed[15]^shift_seed[14]^shift_seed[12]^shift_seed[3]};
 end
 
 endmodule

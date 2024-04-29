@@ -23,7 +23,7 @@ if [file exists work] {
 }
 vlib work
 # compile source files
-vlog lfsr.sv lfsr_tb.sv
+vlog lfsr.sv lfsr_tb.sv 
 # start and run simulation
 vsim -voptargs=+acc work.stimulus
 view wave
@@ -44,5 +44,5 @@ configure wave -datasetprefix 0
 configure wave -rowmargin 4
 configure wave -childrowmargin 2
 -- Run the Simulation 
-run 100 ns
+run 350000 ns
 quit
