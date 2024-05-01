@@ -29,7 +29,7 @@ vsim -voptargs=+acc work.stimulus
 view wave
 -- display input and output signals as hexidecimal values
 # Diplays All Signals recursively
-add wave -bin -r /stimulus/*
+add wave -hex -r /stimulus/*
 #add wave -noupdate -divider -height 32 "ALU"
 #add wave -hex /testbench/dut/arm/dp/alu/*
 -- Set Wave Output Items 
@@ -44,5 +44,5 @@ configure wave -datasetprefix 0
 configure wave -rowmargin 4
 configure wave -childrowmargin 2
 -- Run the Simulation 
-run 350000 ns
+run 37000000000000000000 ns
 quit
