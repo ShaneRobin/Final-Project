@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module stimulus ();
+module stimulusGOL ();
 
    //logic        [63:0]grid;
    //logic 	[63:0]grid_evolve;

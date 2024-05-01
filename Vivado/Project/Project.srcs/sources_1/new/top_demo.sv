@@ -55,7 +55,10 @@ module top_demo
   logic        smol_clk;
    
   // Place Conway Game of Life instantiation here
- 
+
+
+ game dut(q,clk,reset,seed,select);
+ lfsr64 band(seed, clk, reset, shift_seed);
   // HDMI
   // logic hdmi_out_en;
   //assign hdmi_out_en = 1'b0;

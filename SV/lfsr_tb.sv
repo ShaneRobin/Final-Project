@@ -1,7 +1,7 @@
 // testbench to prove maximal LFSR
 
    //logic variables to route input and output to DUT
-module stimulus ();
+module stimulusLFSR ();
   logic [63:0]seed;
   logic clk;
   logic reset;
