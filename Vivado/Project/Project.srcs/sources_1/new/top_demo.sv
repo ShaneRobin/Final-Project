@@ -55,24 +55,29 @@ module top_demo
   logic        smol_clk;
    
   // Place Conway Game of Life instantiation here
+logic [63:0] seed;
+assign seed = 64'h00E7_0000_0000_E700;
+//  start this is switch 0
+//  rand_seed this is switch 1
+//  reset this is switch 2
+logic [63:0] grid_out;
 
-
- game dut(q,clk,reset,seed,select);
- lfsr64 band(seed, clk, reset, shift_seed);
+clk_div clk1 (sysclk_125mhz, btn[2], logic clk_en);
+Magic bullhonky (clk_en,seed, sw[0], sw[1], sw[2], grid_out);
   // HDMI
   // logic hdmi_out_en;
   //assign hdmi_out_en = 1'b0;
-  hdmi_top test (n2, sysclk_125mhz, hdmi_d_p, hdmi_d_n, hdmi_clk_p, 
+  hdmi_top test (grid_out, sysclk_125mhz, hdmi_d_p, hdmi_d_n, hdmi_clk_p, 
 		         hdmi_clk_n, hdmi_cec, hdmi_sda, hdmi_scl, hdmi_hpd);
   
   // 7-segment display
   segment_driver driver(
   .clk(smol_clk),
   .rst(btn[3]),
-  .digit0(sw[3:0]),
-  .digit1(4'b0111),
-  .digit2(sw[7:4]),
-  .digit3(4'b1111),
+  .digit0(0),
+  .digit1(0),
+  .digit2(0),
+  .digit3(0),
   .decimals({1'b0, btn[2:0]}),
   .segment_cathodes({sseg_dp, sseg_cg, sseg_cf, sseg_ce, sseg_cd, sseg_cc, sseg_cb, sseg_ca}),
   .digit_anodes(sseg_an)
