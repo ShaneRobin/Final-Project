@@ -36,7 +36,7 @@ always @ (posedge clk) begin
     shift_seed <= seed;
     end
     else begin
-    shift_seed <= {shift_seed[63:0], shift_seed[63]^shift_seed[62]^shift_seed[60]^shift_seed[59]};
+    shift_seed <= {shift_seed[62:0], ~(shift_seed[63]^shift_seed[62]^shift_seed[60]^shift_seed[59])};
     end
 end
 

@@ -1,5 +1,5 @@
 // synchronously resettable flip flop
-module flopr(input  logic       clk,
+module floprbad(input  logic       clk,
              input  logic       reset, 
              input  logic [7:0] d, 
              output logic [7:0] q);

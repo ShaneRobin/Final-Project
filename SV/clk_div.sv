@@ -1,6 +1,8 @@
 module clk_div (input logic clk, input logic rst, output logic clk_en);
 
+
    logic [27:0] clk_count;
+   
 
    always_ff @(posedge clk) begin
       if (rst)begin

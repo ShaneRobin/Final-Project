@@ -100,75 +100,198 @@ R4
 R5
 n@_opt4
 R6
-vlfsr
+R1
+vclk_div
 Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z8 !s110 1714517612
+!s110 1714681512
+!i10b 1
+!s100 9ZE=`ECa[7VlL?AZ;3gP41
+I^_dM]oD?3k_PGdD>FUVJ;3
+S1
+Z8 dC:/Users/srobi18/Desktop/Final-Project/SV
+w1714678284
+8clk_div.sv
+Fclk_div.sv
+!i122 4
+L0 1 24
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.3;73
+r1
+!s85 0
+31
+!s108 1714681512.000000
+!s107 clk_div.sv|
+!s90 clk_div.sv|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vflopr
+R7
+!s110 1714681232
+!i10b 1
+!s100 P:GF>4ISLoDU@H3NKj=b^1
+IhH=>gW1CYN]7lh6jz<?W61
+S1
+R8
+w1714680494
+8flopr.sv
+Fflopr.sv
+!i122 1
+L0 28 10
+R9
+R10
+r1
+!s85 0
+31
+!s108 1714681232.000000
+!s107 flopr.sv|
+!s90 flopr.sv|
+!i113 0
+R11
+R5
+vFSM
+R7
+!s110 1714681501
+!i10b 1
+!s100 2:fUhBW>P3PJ5D8<@X9dF1
+IF8VNdP9^NHOd7``];Blj;2
+S1
+R8
+w1714674845
+8fsm.sv
+Ffsm.sv
+!i122 2
+L0 1 68
+R9
+R10
+r1
+!s85 0
+31
+!s108 1714681501.000000
+!s107 fsm.sv|
+!s90 fsm.sv|
+!i113 0
+R11
+R5
+n@f@s@m
+vgame
+R7
+!s110 1714682430
+!i10b 1
+!s100 izKdZTfH94Zdd1f]b<[5D3
+I4I_:=P>TBChe8j1_TIe2P3
+S1
+R8
+w1714682216
+8project.sv
+Fproject.sv
+!i122 5
+L0 12 19
+R9
+R10
+r1
+!s85 0
+31
+!s108 1714682430.000000
+!s107 project.sv|
+!s90 project.sv|
+!i113 0
+R11
+R5
+vlfsr
+R7
+Z12 !s110 1714517612
 !i10b 1
 !s100 ?48ek:;`Egdo^d_0cC`mS0
 IkZU6n7]0l7>d=dVZ@6]293
 S1
-Z9 dC:/DLD/Final-Project/SV
-Z10 w1714513942
-Z11 8lfsr.sv
-Z12 Flfsr.sv
+Z13 dC:/DLD/Final-Project/SV
+Z14 w1714513942
+Z15 8lfsr.sv
+Z16 Flfsr.sv
 !i122 0
 L0 1 19
-Z13 VDg1SIo80bB@j0V0VzS_@n1
-Z14 OL;L;2021.3;73
+R9
+R10
 r1
 !s85 0
 31
-Z15 !s108 1714517612.000000
-Z16 !s107 lfsr_tb.sv|lfsr.sv|
-Z17 !s90 lfsr.sv|lfsr_tb.sv|
+Z17 !s108 1714517612.000000
+Z18 !s107 lfsr_tb.sv|lfsr.sv|
+Z19 !s90 lfsr.sv|lfsr_tb.sv|
 !i113 0
-Z18 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R11
 R5
 vlfsr64
 R7
-R8
+R12
 !i10b 1
 !s100 BQbR@QUYnaDh^dQ5>KZl]1
 I?f[E7i0?Hzb03MDWNa^[Y1
 S1
-R9
-R10
-R11
-R12
-!i122 0
-L0 22 22
 R13
 R14
+R15
+R16
+!i122 0
+L0 22 22
+R9
+R10
 r1
 !s85 0
 31
-R15
-R16
 R17
-!i113 0
 R18
+R19
+!i113 0
+R11
 R5
+vMagic
+R7
+!s110 1714681506
+!i10b 1
+!s100 Ia@YMlLVZU2Nd@?[Li14k3
+I2PB7?E:9=RIhX9UT5heg90
+S1
+R8
+w1714679477
+8magic.sv
+Fmagic.sv
+!i122 3
+L0 1 22
+R9
+R10
+r1
+!s85 0
+31
+!s108 1714681506.000000
+!s107 magic.sv|
+!s90 magic.sv|
+!i113 0
+R11
+R5
+n@magic
 vstimulus
 R7
-R8
+R12
 !i10b 1
 !s100 8a^<CGNMmR>mPmOeEI0F10
 Ib1gmBM3Zm7oBhQ]=F?@3c0
 S1
-R9
+R13
 w1714517584
 8lfsr_tb.sv
 Flfsr_tb.sv
 !i122 0
 L0 4 78
-R13
-R14
+R9
+R10
 r1
 !s85 0
 31
-R15
-R16
 R17
-!i113 0
 R18
+R19
+!i113 0
+R11
 R5

@@ -60,9 +60,11 @@ assign seed = 64'h00E7_0000_0000_E700;
 //  start this is switch 0
 //  rand_seed this is switch 1
 //  reset this is switch 2
+
 logic [63:0] grid_out;
 
-clk_div clk1 (sysclk_125mhz, btn[2], logic clk_en);
+clk_div clk  (sysclk_125mhz, btn[1] ,clk_en);
+
 Magic bullhonky (clk_en,seed, sw[0], sw[1], sw[2], grid_out);
   // HDMI
   // logic hdmi_out_en;
