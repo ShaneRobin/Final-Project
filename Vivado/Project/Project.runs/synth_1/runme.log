@@ -17,37 +17,37 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16516
+INFO: [Synth 8-7075] Helper process launched with PID 20336
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1126.004 ; gain = 43.957
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1126.828 ; gain = 20.461
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top_demo' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'clk_div' (1#1) [C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'Magic' [C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'FSM' [C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv:1]
-INFO: [Synth 8-226] default block is never used [C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'FSM' (2#1) [C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'lfsr64' [C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv:22]
-INFO: [Synth 8-6155] done synthesizing module 'lfsr64' (3#1) [C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv:22]
-INFO: [Synth 8-6157] synthesizing module 'game' [C:/Users/srobi18/Desktop/Final-Project/SV/project.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv:30]
-INFO: [Synth 8-6155] done synthesizing module 'mux2' (4#1) [C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv:30]
-INFO: [Synth 8-6157] synthesizing module 'flopr' [C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv:28]
-INFO: [Synth 8-6155] done synthesizing module 'flopr' (5#1) [C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv:28]
-INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'evolve3' [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:88]
-INFO: [Synth 8-6157] synthesizing module 'rules' [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:147]
-INFO: [Synth 8-6155] done synthesizing module 'rules' (6#1) [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:147]
-INFO: [Synth 8-6155] done synthesizing module 'evolve3' (7#1) [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:88]
-INFO: [Synth 8-6157] synthesizing module 'evolve5' [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:103]
-INFO: [Synth 8-6155] done synthesizing module 'evolve5' (8#1) [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:103]
-INFO: [Synth 8-6157] synthesizing module 'evolve8' [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:122]
-INFO: [Synth 8-6155] done synthesizing module 'evolve8' (9#1) [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:122]
-INFO: [Synth 8-6155] done synthesizing module 'datapath' (10#1) [C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv:7]
-INFO: [Synth 8-6155] done synthesizing module 'game' (11#1) [C:/Users/srobi18/Desktop/Final-Project/SV/project.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'Magic' (12#1) [C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_top' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'top_demo' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/jonnaji/Documents/Final-Project/SV/clk_div.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (1#1) [C:/Users/jonnaji/Documents/Final-Project/SV/clk_div.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Magic' [C:/Users/jonnaji/Documents/Final-Project/SV/Magic.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'FSM' [C:/Users/jonnaji/Documents/Final-Project/SV/FSM.sv:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/jonnaji/Documents/Final-Project/SV/FSM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'FSM' (2#1) [C:/Users/jonnaji/Documents/Final-Project/SV/FSM.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'lfsr64' [C:/Users/jonnaji/Documents/Final-Project/SV/lfsr.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'lfsr64' (3#1) [C:/Users/jonnaji/Documents/Final-Project/SV/lfsr.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'game' [C:/Users/jonnaji/Documents/Final-Project/SV/project.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/jonnaji/Documents/Final-Project/SV/mux.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (4#1) [C:/Users/jonnaji/Documents/Final-Project/SV/mux.sv:30]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [C:/Users/jonnaji/Documents/Final-Project/SV/flopr.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (5#1) [C:/Users/jonnaji/Documents/Final-Project/SV/flopr.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'evolve3' [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:88]
+INFO: [Synth 8-6157] synthesizing module 'rules' [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'rules' (6#1) [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'evolve3' (7#1) [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:88]
+INFO: [Synth 8-6157] synthesizing module 'evolve5' [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:103]
+INFO: [Synth 8-6155] done synthesizing module 'evolve5' (8#1) [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:103]
+INFO: [Synth 8-6157] synthesizing module 'evolve8' [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:122]
+INFO: [Synth 8-6155] done synthesizing module 'evolve8' (9#1) [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:122]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (10#1) [C:/Users/jonnaji/Documents/Final-Project/SV/datapath.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'game' (11#1) [C:/Users/jonnaji/Documents/Final-Project/SV/project.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'Magic' (12#1) [C:/Users/jonnaji/Documents/Final-Project/SV/Magic.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_top' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
 	Parameter AUDIO_BIT_WIDTH bound to: 16 - type: integer 
 	Parameter AUDIO_RATE bound to: 48000 - type: integer 
 	Parameter WAVE_RATE bound to: 480 - type: integer 
@@ -59,7 +59,7 @@ INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2020.2/scrip
 	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (13#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_pll_xilinx' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_pll_xilinx' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_MULT_F bound to: 37.125000 - type: double 
@@ -112,8 +112,8 @@ INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2020.2/s
 INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (14#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (15#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_pll_xilinx' (16#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'hdmi' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_pll_xilinx' (16#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'hdmi' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
 	Parameter VIDEO_ID_CODE bound to: 32'sb00000000000000000000000000000100 
 	Parameter IT_CONTENT bound to: 1'b1 
 	Parameter BIT_WIDTH bound to: 32'sb00000000000000000000000000001011 
@@ -129,7 +129,7 @@ INFO: [Synth 8-6157] synthesizing module 'hdmi' [C:/Users/srobi18/Desktop/Final-
 	Parameter START_Y bound to: 32'sb00000000000000000000000000000000 
 	Parameter NUM_CHANNELS bound to: 32'sb00000000000000000000000000000011 
 	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
-INFO: [Synth 8-6157] synthesizing module 'packet_picker' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'packet_picker' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:4]
 	Parameter VIDEO_ID_CODE bound to: 32'sb00000000000000000000000000000100 
 	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
 	Parameter IT_CONTENT bound to: 1'b1 
@@ -142,7 +142,7 @@ INFO: [Synth 8-6157] synthesizing module 'packet_picker' [C:/Users/srobi18/Deskt
 	Parameter AUDIO_BIT_WIDTH_COMPARATOR bound to: 32'sb00000000000000000000000000010100 
 	Parameter WORD_LENGTH bound to: 3'b100 
 	Parameter WORD_LENGTH_LIMIT bound to: 1'b0 
-INFO: [Synth 8-6157] synthesizing module 'audio_clock_regeneration_packet' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'audio_clock_regeneration_packet' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:5]
 	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
 	Parameter AUDIO_RATE bound to: 48000 - type: integer 
 	Parameter N bound to: 20'b00000001100000000000 
@@ -150,8 +150,8 @@ INFO: [Synth 8-6157] synthesizing module 'audio_clock_regeneration_packet' [C:/U
 	Parameter CLK_AUDIO_COUNTER_END bound to: 6'b101111 
 	Parameter CYCLE_TIME_STAMP_COUNTER_IDEAL bound to: 20'b00010010001000001010 
 	Parameter CYCLE_TIME_STAMP_COUNTER_WIDTH bound to: 32'sb00000000000000000000000000010001 
-INFO: [Synth 8-6155] done synthesizing module 'audio_clock_regeneration_packet' (17#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:5]
-INFO: [Synth 8-6157] synthesizing module 'audio_sample_packet' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'audio_clock_regeneration_packet' (17#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'audio_sample_packet' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv:8]
 	Parameter GRADE bound to: 1'b0 
 	Parameter SAMPLE_WORD_TYPE bound to: 1'b0 
 	Parameter COPYRIGHT_NOT_ASSERTED bound to: 1'b1 
@@ -165,8 +165,8 @@ INFO: [Synth 8-6157] synthesizing module 'audio_sample_packet' [C:/Users/srobi18
 	Parameter ORIGINAL_SAMPLING_FREQUENCY bound to: 4'b0000 
 	Parameter LAYOUT bound to: 1'b0 
 	Parameter CHANNEL_STATUS_LENGTH bound to: 8'b11000000 
-INFO: [Synth 8-6155] done synthesizing module 'audio_sample_packet' (18#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv:8]
-INFO: [Synth 8-6157] synthesizing module 'auxiliary_video_information_info_frame' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'audio_sample_packet' (18#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'auxiliary_video_information_info_frame' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv:5]
 	Parameter VIDEO_FORMAT bound to: 2'b00 
 	Parameter ACTIVE_FORMAT_INFO_PRESENT bound to: 1'b0 
 	Parameter BAR_INFO bound to: 2'b00 
@@ -185,16 +185,16 @@ INFO: [Synth 8-6157] synthesizing module 'auxiliary_video_information_info_frame
 	Parameter LENGTH bound to: 5'b01101 
 	Parameter VERSION bound to: 8'b00000010 
 	Parameter TYPE bound to: 7'b0000010 
-INFO: [Synth 8-6155] done synthesizing module 'auxiliary_video_information_info_frame' (19#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv:5]
-INFO: [Synth 8-6157] synthesizing module 'source_product_description_info_frame' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'auxiliary_video_information_info_frame' (19#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'source_product_description_info_frame' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv:5]
 	Parameter VENDOR_NAME bound to: 64'b0101010101101110011010110110111001101111011101110110111000000000 
 	Parameter PRODUCT_DESCRIPTION bound to: 128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter SOURCE_DEVICE_INFORMATION bound to: 8'b00000000 
 	Parameter LENGTH bound to: 5'b11001 
 	Parameter VERSION bound to: 8'b00000001 
 	Parameter TYPE bound to: 7'b0000011 
-INFO: [Synth 8-6155] done synthesizing module 'source_product_description_info_frame' (20#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv:5]
-INFO: [Synth 8-6157] synthesizing module 'audio_info_frame' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'source_product_description_info_frame' (20#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'audio_info_frame' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv:5]
 	Parameter AUDIO_CHANNEL_COUNT bound to: 3'b001 
 	Parameter CHANNEL_ALLOCATION bound to: 8'b00000000 
 	Parameter DOWN_MIX_INHIBITED bound to: 1'b0 
@@ -206,29 +206,29 @@ INFO: [Synth 8-6157] synthesizing module 'audio_info_frame' [C:/Users/srobi18/De
 	Parameter LENGTH bound to: 5'b01010 
 	Parameter VERSION bound to: 8'b00000001 
 	Parameter TYPE bound to: 7'b0000100 
-INFO: [Synth 8-6155] done synthesizing module 'audio_info_frame' (21#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv:5]
-INFO: [Synth 8-6155] done synthesizing module 'packet_picker' (22#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'packet_assembler' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:4]
-INFO: [Synth 8-6155] done synthesizing module 'packet_assembler' (23#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'tmds_channel' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'audio_info_frame' (21#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'packet_picker' (22#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'packet_assembler' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'packet_assembler' (23#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'tmds_channel' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
 	Parameter CN bound to: 32'sb00000000000000000000000000000000 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
-INFO: [Synth 8-6155] done synthesizing module 'tmds_channel' (24#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'tmds_channel__parameterized0' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_channel' (24#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'tmds_channel__parameterized0' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
 	Parameter CN bound to: 32'sb00000000000000000000000000000001 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
-INFO: [Synth 8-6155] done synthesizing module 'tmds_channel__parameterized0' (24#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'tmds_channel__parameterized1' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_channel__parameterized0' (24#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'tmds_channel__parameterized1' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
 	Parameter CN bound to: 32'sb00000000000000000000000000000010 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
-INFO: [Synth 8-6155] done synthesizing module 'tmds_channel__parameterized1' (24#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'serializer' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_channel__parameterized1' (24#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'serializer' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
 	Parameter NUM_CHANNELS bound to: 32'sb00000000000000000000000000000011 
 	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
 INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
@@ -285,69 +285,69 @@ INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/
 	Parameter TBYTE_SRC bound to: FALSE - type: string 
 	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (25#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
-INFO: [Synth 8-6155] done synthesizing module 'serializer' (26#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi' (27#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
-WARNING: [Synth 8-689] width (10) of port connection 'cx' does not match port width (11) of module 'hdmi' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:53]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_top' (28#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'segment_driver' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'serializer' (26#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi' (27#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
+WARNING: [Synth 8-689] width (10) of port connection 'cx' does not match port width (11) of module 'hdmi' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_top' (28#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'segment_driver' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
 	Parameter DIGIT_ZERO bound to: 2'b00 
 	Parameter DIGIT_ONE bound to: 2'b01 
 	Parameter DIGIT_TWO bound to: 2'b10 
 	Parameter DIGIT_THREE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:63]
-INFO: [Synth 8-6157] synthesizing module 'digit2segments' [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:23]
-INFO: [Synth 8-226] default block is never used [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:30]
-INFO: [Synth 8-6155] done synthesizing module 'digit2segments' (29#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'segment_driver' (30#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'top_demo' (31#1) [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:63]
+INFO: [Synth 8-6157] synthesizing module 'digit2segments' [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'digit2segments' (29#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'segment_driver' (30#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_demo' (31#1) [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1225.805 ; gain = 143.758
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1226.223 ; gain = 119.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1225.805 ; gain = 143.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1226.223 ; gain = 119.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1225.805 ; gain = 143.758
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1226.223 ; gain = 119.855
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1225.805 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.118 . Memory (MB): peak = 1226.223 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]
-WARNING: [Vivado 12-584] No ports matched 'hdmi_out_en'. [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc:87]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc:87]
+Parsing XDC File [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'hdmi_out_en'. [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc:87]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_demo_propImpl.xdc].
+Finished Parsing XDC File [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_demo_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1356.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1358.715 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1356.207 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1358.715 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1356.207 ; gain = 274.160
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1358.715 ; gain = 252.348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1356.207 ; gain = 274.160
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1358.715 ; gain = 252.348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1356.207 ; gain = 274.160
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1358.715 ; gain = 252.348
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'CURRENT_STATE_reg' in module 'segment_driver'
 ---------------------------------------------------------------------------------------------------
@@ -360,7 +360,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'CURRENT_STATE_reg' in modul
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'CURRENT_STATE_reg' using encoding 'sequential' in module 'segment_driver'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1356.207 ; gain = 274.160
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1358.715 ; gain = 252.348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -446,25 +446,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1363.070 ; gain = 281.023
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1366.367 ; gain = 260.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1363.070 ; gain = 281.023
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1366.367 ; gain = 260.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1363.070 ; gain = 281.023
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1366.367 ; gain = 260.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1450.707 ; gain = 368.660
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1455.406 ; gain = 349.039
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -482,37 +482,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -550,26 +550,26 @@ Report Cell Usage:
 |21    |OBUFT      |     8|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1470.203 ; gain = 363.836
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1465.539 ; gain = 253.090
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1465.539 ; gain = 383.492
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:51 . Memory (MB): peak = 1470.203 ; gain = 231.344
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1470.203 ; gain = 363.836
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1465.539 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1470.203 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 118 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1467.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1470.402 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 99 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:05 . Memory (MB): peak = 1467.969 ; gain = 385.922
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:13 . Memory (MB): peak = 1470.402 ; gain = 364.035
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/synth_1/top_demo.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.runs/synth_1/top_demo.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_demo_utilization_synth.rpt -pb top_demo_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May  2 18:00:20 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri May  3 13:52:05 2024...

@@ -2,202 +2,25 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu May  2 13:34:15 2024
-# Process ID: 12652
-# Current directory: C:/Users/srobi18/Desktop/Final-Project/Vivado/Project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19864 C:\Users\srobi18\Desktop\Final-Project\Vivado\Project\Project.xpr
-# Log file: C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/vivado.log
-# Journal file: C:/Users/srobi18/Desktop/Final-Project/Vivado/Project\vivado.jou
+# Start of session at: Fri May  3 13:49:14 2024
+# Process ID: 13872
+# Current directory: C:/Users/jonnaji/Documents/Final-Project/Vivado/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25568 C:\Users\jonnaji\Documents\Final-Project\Vivado\Project\Project.xpr
+# Log file: C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/vivado.log
+# Journal file: C:/Users/jonnaji/Documents/Final-Project/Vivado/Project\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.xpr
+open_project C:/Users/jonnaji/Documents/Final-Project/Vivado/Project/Project.xpr
 update_compile_order -fileset sources_1
-add_files {C:/Users/srobi18/Desktop/Final-Project/SV/project_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/project.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenrc.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/flop.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopen.sv C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenl.sv C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopens.sv C:/Users/srobi18/Desktop/Final-Project/SV/floprc.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv}
-update_compile_order -fileset sources_1
+startgroup
+create_report_config -report_name impl_1_route_report_utilization_0 -step route_design -report_type report_utilization -run impl_1
+set_property DISPLAY_NAME {Utilization - Route Design} [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_utilization_0] 
+startgroup
+create_report_config -report_name impl_1_route_report_timing_0 -step route_design -report_type report_timing -run impl_1
+set_property DISPLAY_NAME {Timing - Route Design} [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_timing_0] 
+startgroup
+create_report_config -report_name impl_1_route_report_power_1 -step route_design -report_type report_power -run impl_1
+set_property DISPLAY_NAME {Power 1 - Route Design} [get_report_configs -of_objects [get_runs impl_1] impl_1_route_report_power_1] 
 reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-add_files {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/sub.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopen.sv C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/silly_tb.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/console.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopens.sv C:/Users/srobi18/Desktop/Final-Project/SV/floprc.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/project_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/project.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/tb.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenrc.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/adder.sv C:/Users/srobi18/Desktop/Final-Project/SV/flop.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/glyphmap.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/top.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.sim/sim_1/behav/xsim/glbl.v C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenl.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/attributemap.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenr.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv}
-update_compile_order -fileset sources_1
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-add_files -norecurse {C:/Users/srobi18/Desktop/Final-Project/SV/project_tb.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/sub.sv C:/Users/srobi18/Desktop/Final-Project/SV/project.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenrc.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr_tb.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/adder.sv C:/Users/srobi18/Desktop/Final-Project/SV/flop.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopen.sv C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/top.sv C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenl.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/silly_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopens.sv C:/Users/srobi18/Desktop/Final-Project/SV/floprc.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv}
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-add_files -norecurse {C:/Users/srobi18/Desktop/Final-Project/SV/project_tb.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/sub.sv C:/Users/srobi18/Desktop/Final-Project/SV/project.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenrc.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr_tb.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/adder.sv C:/Users/srobi18/Desktop/Final-Project/SV/flop.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopen.sv C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/top.sv C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenl.sv C:/Users/srobi18/Desktop/Final-Project/datapath_control/silly_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopens.sv C:/Users/srobi18/Desktop/Final-Project/SV/floprc.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv}
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-current_hw_device [get_hw_devices xc7z020_1]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-reset_run synth_1
-launch_runs synth_1 -jobs 8
-wait_on_run synth_1
 launch_runs impl_1 -jobs 8
 wait_on_run impl_1
-add_files -norecurse {C:/Users/srobi18/Desktop/Final-Project/SV/project_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/project.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenrc.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopr.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/flop.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopen.sv C:/Users/srobi18/Desktop/Final-Project/SV/clk_div.sv C:/Users/srobi18/Desktop/Final-Project/SV/Magic.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenl.sv C:/Users/srobi18/Desktop/Final-Project/SV/FSM.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopenr.sv C:/Users/srobi18/Desktop/Final-Project/SV/flopens.sv C:/Users/srobi18/Desktop/Final-Project/SV/floprc.sv C:/Users/srobi18/Desktop/Final-Project/SV/lfsr.sv C:/Users/srobi18/Desktop/Final-Project/SV/datapath_tb.sv C:/Users/srobi18/Desktop/Final-Project/SV/mux.sv}
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-update_compile_order -fileset sources_1
-open_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-refresh_design
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-open_run synth_1 -name synth_1
-current_design rtl_1
-refresh_design
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-refresh_design
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/srobi18/Desktop/Final-Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
